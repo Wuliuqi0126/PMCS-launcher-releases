@@ -2,24 +2,24 @@
 
 此仓库只存放 OL启动器的安装包和便携版，不包含源码。
 
-## 下载 v1.4.1
+## 下载 v1.4.2
 
-- [安装程序 OLLauncher-1.4.1-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.1/OLLauncher-1.4.1-Setup.exe)
-- [便携版 OLLauncher-1.4.1-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.1/OLLauncher-1.4.1-Portable.zip)
+- [安装程序 OLLauncher-1.4.2-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.2/OLLauncher-1.4.2-Setup.exe)
+- [便携版 OLLauncher-1.4.2-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.2/OLLauncher-1.4.2-Portable.zip)
 - [全部版本](https://github.com/Wuliuqi0126/ol-launcher-releases/releases)
 
-## v1.4.1 更新
+## v1.4.2 更新
 
-- 刷新按钮增加加载动画、禁用状态和完成/失败提示。
-- 右下角下载任务新增暂停/继续和停止按钮。
-- 停止任务会中止正在进行的 Java 和模组下载。
-- 模组/光影/皮肤三模块保持 1.4.0 的布局。
+- 版本库新增“已下载”筛选，正式版和快照分开展示。
+- 已下载版本支持卸载本地版本文件。
+- 模组市场“已安装”入口改为“我的模组”，支持浏览和卸载。
+- 设置页新增缓存统计和“清除当前缓存”。
 
 ## SHA256
 
 ```text
-0096B1B4AAA0A4FF19BD0BA975E6E43C36ABE6F6DEC4A44738823FECF2AF268F  OLLauncher-1.4.1-Setup.exe
-1C0671CC5E79F031AD8284D8CBC132A562BC374A73AE1D5115C70441290756D8  OLLauncher-1.4.1-Portable.zip
+DFC0D2FA00240CA3541DBA53AE895C5905DD8201B8D15798D72ACAB17E0EF318  OLLauncher-1.4.2-Setup.exe
+F565F32950E03E13F424BE180BB7D5AC260463533A45C26ED5C705E7CF3B0388  OLLauncher-1.4.2-Portable.zip
 ```
 
 安装包未签名，Windows SmartScreen 可能提示，请选择“更多信息 → 仍要运行”。
