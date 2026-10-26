@@ -2,28 +2,25 @@
 
 此仓库只存放 OL启动器的安装包和便携版，不包含源码。
 
-## 下载 v1.4.7
+## 下载 v1.4.8
 
-- [安装程序 OLLauncher-1.4.7-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.7/OLLauncher-1.4.7-Setup.exe)
-- [便携版 OLLauncher-1.4.7-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.7/OLLauncher-1.4.7-Portable.zip)
+- [安装程序 OLLauncher-1.4.8-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.8/OLLauncher-1.4.8-Setup.exe)
+- [便携版 OLLauncher-1.4.8-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.8/OLLauncher-1.4.8-Portable.zip)
 - [全部版本](https://github.com/Wuliuqi0126/ol-launcher-releases/releases)
 
-## v1.4.7 更新
+## v1.4.8 更新
 
-- Tailscale/playit 浏览器分步引导。
-- Tailscale 登录状态实时轮询，增加 `tailscale ip -4` 兜底。
-- playit 运行日志解析公网隧道地址。
-- 安装程序自动配置专用网络防火墙：
-  - OL启动器程序放行
-  - UDP 24454 发现端口
-  - Java 局域网 TCP 49152–65535
-  - Java TCP 25565
+- playit 通过本地 IPC 读取真实隧道列表，自动显示公网地址。
+- 自动匹配当前局域端口对应的 playit 隧道。
+- 公网地址可一键复制。
+- 修复联机主机地址复制失败。
+- playit 启动后显示隧道开启分步提醒。
 
 ## SHA256
 
 ```text
-A2D06D54D30BC4A89C3FE051E6F78C1A53B4766AA00F6CC19FD0EF47C95752CB  OLLauncher-1.4.7-Setup.exe
-C71A05CB08A01CBB8C9EDE51A3092F2FCB371AB50D392E5E66909FADA2B6D95C  OLLauncher-1.4.7-Portable.zip
+5B35C21E4E34A6A10D9877129859C12294822B3B350E92906DC4DC45AE7F4C34  OLLauncher-1.4.8-Setup.exe
+D18D1E1AEA92F20751051CF5EA8230D43B3D1308669A823524C177F42AFBF3BE  OLLauncher-1.4.8-Portable.zip
 ```
 
 安装包未签名，Windows SmartScreen 可能提示，请选择“更多信息 → 仍要运行”。
