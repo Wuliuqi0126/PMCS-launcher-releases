@@ -2,24 +2,28 @@
 
 此仓库只存放 OL启动器的安装包和便携版，不包含源码。
 
-## 下载 v1.4.6
+## 下载 v1.4.7
 
-- [安装程序 OLLauncher-1.4.6-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.6/OLLauncher-1.4.6-Setup.exe)
-- [便携版 OLLauncher-1.4.6-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.6/OLLauncher-1.4.6-Portable.zip)
+- [安装程序 OLLauncher-1.4.7-Setup.exe](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.7/OLLauncher-1.4.7-Setup.exe)
+- [便携版 OLLauncher-1.4.7-Portable.zip](https://github.com/Wuliuqi0126/ol-launcher-releases/releases/download/v1.4.7/OLLauncher-1.4.7-Portable.zip)
 - [全部版本](https://github.com/Wuliuqi0126/ol-launcher-releases/releases)
 
-## v1.4.6 更新
+## v1.4.7 更新
 
-- 启动器启动后即监听局域网发现广播。
-- 增强游戏日志端口识别，自动同步局域网端口。
-- 主机开放局域网后广播房间，客机自动刷新并可一键加入。
-- 加入房间区域新增刷新按钮与反馈。
+- Tailscale/playit 浏览器分步引导。
+- Tailscale 登录状态实时轮询，增加 `tailscale ip -4` 兜底。
+- playit 运行日志解析公网隧道地址。
+- 安装程序自动配置专用网络防火墙：
+  - OL启动器程序放行
+  - UDP 24454 发现端口
+  - Java 局域网 TCP 49152–65535
+  - Java TCP 25565
 
 ## SHA256
 
 ```text
-7345AC2E92343CA02C968FA82689220978357E6B40C7447E0BDF334E384E5887  OLLauncher-1.4.6-Setup.exe
-76EFDDC2734F0C9568E8C29DEF792AE5DFF5C8D8207D30AE10853EF51BBF4F70  OLLauncher-1.4.6-Portable.zip
+A2D06D54D30BC4A89C3FE051E6F78C1A53B4766AA00F6CC19FD0EF47C95752CB  OLLauncher-1.4.7-Setup.exe
+C71A05CB08A01CBB8C9EDE51A3092F2FCB371AB50D392E5E66909FADA2B6D95C  OLLauncher-1.4.7-Portable.zip
 ```
 
 安装包未签名，Windows SmartScreen 可能提示，请选择“更多信息 → 仍要运行”。
